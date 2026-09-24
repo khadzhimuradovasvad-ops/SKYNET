@@ -1,0 +1,803 @@
+==============================================================================
+SKYNET 1_1_0 — PUBLIC RUNTIME VALIDATION
+==============================================================================
+SOURCE     = /storage/emulated/0/@_network_gen./grund/BORN_OF_THE_DARK_ABYSS_FINAL_1_1_0.py
+LINES      = 4692
+CHARACTERS = 115994
+BYTES      = 116008
+SHA256     = 93b966eab0235a53752ebcc5768fec8696514e268e865ca47650c57a22def0a0
+RESULT_TXT = /storage/emulated/0/@_network_gen./grund/SKYNET_PUBLIC_RUNTIME_VALIDATION_RESULT_1_1_0.txt
+TEST_POPULATION_LIMIT = 32
+
+------------------------------------------------------------------------------
+CYCLE          = 1
+CORES_BEFORE   = 1
+CORES_AFTER    = 1
+NEW            = 0
+MAX_GENERATION = 0
+INTERACTIONS   = 0
+EXPECTED_PAIRS = 0
+PAIR_COUNT_OK  = True
+RESONANCE      = 0
+------------------------------------------------------------------------------
+CYCLE          = 2
+CORES_BEFORE   = 1
+CORES_AFTER    = 2
+NEW            = 1
+MAX_GENERATION = 1
+INTERACTIONS   = 0
+EXPECTED_PAIRS = 0
+PAIR_COUNT_OK  = True
+RESONANCE      = 0
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = fb4e5e542fb74e83cb07f3b523d9ffe531381f6b43be84e0e698c5604cd8417a
+  CHILD_CORE_ID      = f4764cf1e507cacf669aa54c74cfae98b3c4ba9d5e8072662161d8daa08170d8
+  GENERATION         = 0 -> 1
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+------------------------------------------------------------------------------
+CYCLE          = 3
+CORES_BEFORE   = 2
+CORES_AFTER    = 2
+NEW            = 0
+MAX_GENERATION = 1
+INTERACTIONS   = 1
+EXPECTED_PAIRS = 1
+PAIR_COUNT_OK  = True
+RESONANCE      = 0
+------------------------------------------------------------------------------
+CYCLE          = 4
+CORES_BEFORE   = 2
+CORES_AFTER    = 3
+NEW            = 1
+MAX_GENERATION = 2
+INTERACTIONS   = 1
+EXPECTED_PAIRS = 1
+PAIR_COUNT_OK  = True
+RESONANCE      = 1
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = f4764cf1e507cacf669aa54c74cfae98b3c4ba9d5e8072662161d8daa08170d8
+  CHILD_CORE_ID      = adfe0ee0ebf616fa964143c3def478d1fb2fa636887565a6c6441379a06abc9a
+  GENERATION         = 1 -> 2
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+------------------------------------------------------------------------------
+CYCLE          = 5
+CORES_BEFORE   = 3
+CORES_AFTER    = 3
+NEW            = 0
+MAX_GENERATION = 2
+INTERACTIONS   = 3
+EXPECTED_PAIRS = 3
+PAIR_COUNT_OK  = True
+RESONANCE      = 1
+------------------------------------------------------------------------------
+CYCLE          = 6
+CORES_BEFORE   = 3
+CORES_AFTER    = 4
+NEW            = 1
+MAX_GENERATION = 3
+INTERACTIONS   = 3
+EXPECTED_PAIRS = 3
+PAIR_COUNT_OK  = True
+RESONANCE      = 3
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = adfe0ee0ebf616fa964143c3def478d1fb2fa636887565a6c6441379a06abc9a
+  CHILD_CORE_ID      = 3c0024cad3358d669d783ab371f8bc3f4989c0c00faff4bdf046a2d321e5ce3a
+  GENERATION         = 2 -> 3
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+------------------------------------------------------------------------------
+CYCLE          = 7
+CORES_BEFORE   = 4
+CORES_AFTER    = 4
+NEW            = 0
+MAX_GENERATION = 3
+INTERACTIONS   = 6
+EXPECTED_PAIRS = 6
+PAIR_COUNT_OK  = True
+RESONANCE      = 3
+------------------------------------------------------------------------------
+CYCLE          = 8
+CORES_BEFORE   = 4
+CORES_AFTER    = 5
+NEW            = 1
+MAX_GENERATION = 4
+INTERACTIONS   = 6
+EXPECTED_PAIRS = 6
+PAIR_COUNT_OK  = True
+RESONANCE      = 6
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = 3c0024cad3358d669d783ab371f8bc3f4989c0c00faff4bdf046a2d321e5ce3a
+  CHILD_CORE_ID      = f825af8cff7432a73e0d6a4471e1a183c30f0c06b7909fa666ef665228bf819e
+  GENERATION         = 3 -> 4
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+------------------------------------------------------------------------------
+CYCLE          = 9
+CORES_BEFORE   = 5
+CORES_AFTER    = 5
+NEW            = 0
+MAX_GENERATION = 4
+INTERACTIONS   = 10
+EXPECTED_PAIRS = 10
+PAIR_COUNT_OK  = True
+RESONANCE      = 6
+------------------------------------------------------------------------------
+CYCLE          = 10
+CORES_BEFORE   = 5
+CORES_AFTER    = 6
+NEW            = 1
+MAX_GENERATION = 5
+INTERACTIONS   = 10
+EXPECTED_PAIRS = 10
+PAIR_COUNT_OK  = True
+RESONANCE      = 10
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = f825af8cff7432a73e0d6a4471e1a183c30f0c06b7909fa666ef665228bf819e
+  CHILD_CORE_ID      = a80c1d9ba6bad8b25d0f0bd3fd542a41e48c75073ed89151be2c5b94bb1486f0
+  GENERATION         = 4 -> 5
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+------------------------------------------------------------------------------
+CYCLE          = 11
+CORES_BEFORE   = 6
+CORES_AFTER    = 6
+NEW            = 0
+MAX_GENERATION = 5
+INTERACTIONS   = 15
+EXPECTED_PAIRS = 15
+PAIR_COUNT_OK  = True
+RESONANCE      = 10
+------------------------------------------------------------------------------
+CYCLE          = 12
+CORES_BEFORE   = 6
+CORES_AFTER    = 7
+NEW            = 1
+MAX_GENERATION = 6
+INTERACTIONS   = 15
+EXPECTED_PAIRS = 15
+PAIR_COUNT_OK  = True
+RESONANCE      = 15
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = a80c1d9ba6bad8b25d0f0bd3fd542a41e48c75073ed89151be2c5b94bb1486f0
+  CHILD_CORE_ID      = ba19153d9810f4e79e1cbf0685600091a5aae5461f49f6700527197d9262be27
+  GENERATION         = 5 -> 6
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+------------------------------------------------------------------------------
+CYCLE          = 13
+CORES_BEFORE   = 7
+CORES_AFTER    = 7
+NEW            = 0
+MAX_GENERATION = 6
+INTERACTIONS   = 21
+EXPECTED_PAIRS = 21
+PAIR_COUNT_OK  = True
+RESONANCE      = 15
+------------------------------------------------------------------------------
+CYCLE          = 14
+CORES_BEFORE   = 7
+CORES_AFTER    = 8
+NEW            = 1
+MAX_GENERATION = 7
+INTERACTIONS   = 21
+EXPECTED_PAIRS = 21
+PAIR_COUNT_OK  = True
+RESONANCE      = 21
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = ba19153d9810f4e79e1cbf0685600091a5aae5461f49f6700527197d9262be27
+  CHILD_CORE_ID      = 47d57adda2ff5f720d3bf333d2b82263881bb57a213e290c3998444c03415320
+  GENERATION         = 6 -> 7
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+------------------------------------------------------------------------------
+CYCLE          = 15
+CORES_BEFORE   = 8
+CORES_AFTER    = 8
+NEW            = 0
+MAX_GENERATION = 7
+INTERACTIONS   = 28
+EXPECTED_PAIRS = 28
+PAIR_COUNT_OK  = True
+RESONANCE      = 21
+------------------------------------------------------------------------------
+CYCLE          = 16
+CORES_BEFORE   = 8
+CORES_AFTER    = 9
+NEW            = 1
+MAX_GENERATION = 8
+INTERACTIONS   = 28
+EXPECTED_PAIRS = 28
+PAIR_COUNT_OK  = True
+RESONANCE      = 28
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = 47d57adda2ff5f720d3bf333d2b82263881bb57a213e290c3998444c03415320
+  CHILD_CORE_ID      = d9b38335c8162c41eee9c54581df05a607d06e8b209a777a4868b9a4a2f2db95
+  GENERATION         = 7 -> 8
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+------------------------------------------------------------------------------
+CYCLE          = 17
+CORES_BEFORE   = 9
+CORES_AFTER    = 9
+NEW            = 0
+MAX_GENERATION = 8
+INTERACTIONS   = 36
+EXPECTED_PAIRS = 36
+PAIR_COUNT_OK  = True
+RESONANCE      = 28
+------------------------------------------------------------------------------
+CYCLE          = 18
+CORES_BEFORE   = 9
+CORES_AFTER    = 10
+NEW            = 1
+MAX_GENERATION = 9
+INTERACTIONS   = 36
+EXPECTED_PAIRS = 36
+PAIR_COUNT_OK  = True
+RESONANCE      = 36
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = d9b38335c8162c41eee9c54581df05a607d06e8b209a777a4868b9a4a2f2db95
+  CHILD_CORE_ID      = f379e19cf8ae03c10f89b1364c95506baf260a67018dd65673ea75148347db39
+  GENERATION         = 8 -> 9
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+------------------------------------------------------------------------------
+CYCLE          = 19
+CORES_BEFORE   = 10
+CORES_AFTER    = 10
+NEW            = 0
+MAX_GENERATION = 9
+INTERACTIONS   = 45
+EXPECTED_PAIRS = 45
+PAIR_COUNT_OK  = True
+RESONANCE      = 36
+------------------------------------------------------------------------------
+CYCLE          = 20
+CORES_BEFORE   = 10
+CORES_AFTER    = 11
+NEW            = 1
+MAX_GENERATION = 10
+INTERACTIONS   = 45
+EXPECTED_PAIRS = 45
+PAIR_COUNT_OK  = True
+RESONANCE      = 45
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = f379e19cf8ae03c10f89b1364c95506baf260a67018dd65673ea75148347db39
+  CHILD_CORE_ID      = e88c1bef586655247d7ed998ce7b5c28412bd263e3dfbaa3c947ccc1b08a4c28
+  GENERATION         = 9 -> 10
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+------------------------------------------------------------------------------
+CYCLE          = 21
+CORES_BEFORE   = 11
+CORES_AFTER    = 11
+NEW            = 0
+MAX_GENERATION = 10
+INTERACTIONS   = 55
+EXPECTED_PAIRS = 55
+PAIR_COUNT_OK  = True
+RESONANCE      = 45
+------------------------------------------------------------------------------
+CYCLE          = 22
+CORES_BEFORE   = 11
+CORES_AFTER    = 12
+NEW            = 1
+MAX_GENERATION = 11
+INTERACTIONS   = 55
+EXPECTED_PAIRS = 55
+PAIR_COUNT_OK  = True
+RESONANCE      = 55
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = e88c1bef586655247d7ed998ce7b5c28412bd263e3dfbaa3c947ccc1b08a4c28
+  CHILD_CORE_ID      = 0fbeea9a422aa85e32918cd39702e5a256a203577c89426353c93d1b77033967
+  GENERATION         = 10 -> 11
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+------------------------------------------------------------------------------
+CYCLE          = 23
+CORES_BEFORE   = 12
+CORES_AFTER    = 12
+NEW            = 0
+MAX_GENERATION = 11
+INTERACTIONS   = 66
+EXPECTED_PAIRS = 66
+PAIR_COUNT_OK  = True
+RESONANCE      = 55
+------------------------------------------------------------------------------
+CYCLE          = 24
+CORES_BEFORE   = 12
+CORES_AFTER    = 13
+NEW            = 1
+MAX_GENERATION = 12
+INTERACTIONS   = 66
+EXPECTED_PAIRS = 66
+PAIR_COUNT_OK  = True
+RESONANCE      = 66
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = 0fbeea9a422aa85e32918cd39702e5a256a203577c89426353c93d1b77033967
+  CHILD_CORE_ID      = 213f18e2e02ddb593534df2d390487f660f36f7450dba915a80f5747b13a9233
+  GENERATION         = 11 -> 12
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+------------------------------------------------------------------------------
+CYCLE          = 25
+CORES_BEFORE   = 13
+CORES_AFTER    = 13
+NEW            = 0
+MAX_GENERATION = 12
+INTERACTIONS   = 78
+EXPECTED_PAIRS = 78
+PAIR_COUNT_OK  = True
+RESONANCE      = 66
+------------------------------------------------------------------------------
+CYCLE          = 26
+CORES_BEFORE   = 13
+CORES_AFTER    = 14
+NEW            = 1
+MAX_GENERATION = 13
+INTERACTIONS   = 78
+EXPECTED_PAIRS = 78
+PAIR_COUNT_OK  = True
+RESONANCE      = 78
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = 213f18e2e02ddb593534df2d390487f660f36f7450dba915a80f5747b13a9233
+  CHILD_CORE_ID      = 6884860b9ca15a53ea172cdc3fc7aef9b8c2a8ce73befad8f19256ed1892bca0
+  GENERATION         = 12 -> 13
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+------------------------------------------------------------------------------
+CYCLE          = 27
+CORES_BEFORE   = 14
+CORES_AFTER    = 14
+NEW            = 0
+MAX_GENERATION = 13
+INTERACTIONS   = 91
+EXPECTED_PAIRS = 91
+PAIR_COUNT_OK  = True
+RESONANCE      = 78
+------------------------------------------------------------------------------
+CYCLE          = 28
+CORES_BEFORE   = 14
+CORES_AFTER    = 14
+NEW            = 0
+MAX_GENERATION = 13
+INTERACTIONS   = 91
+EXPECTED_PAIRS = 91
+PAIR_COUNT_OK  = True
+RESONANCE      = 91
+------------------------------------------------------------------------------
+CYCLE          = 29
+CORES_BEFORE   = 14
+CORES_AFTER    = 14
+NEW            = 0
+MAX_GENERATION = 13
+INTERACTIONS   = 91
+EXPECTED_PAIRS = 91
+PAIR_COUNT_OK  = True
+RESONANCE      = 91
+------------------------------------------------------------------------------
+CYCLE          = 30
+CORES_BEFORE   = 14
+CORES_AFTER    = 14
+NEW            = 0
+MAX_GENERATION = 13
+INTERACTIONS   = 91
+EXPECTED_PAIRS = 91
+PAIR_COUNT_OK  = True
+RESONANCE      = 91
+------------------------------------------------------------------------------
+CYCLE          = 31
+CORES_BEFORE   = 14
+CORES_AFTER    = 14
+NEW            = 0
+MAX_GENERATION = 13
+INTERACTIONS   = 91
+EXPECTED_PAIRS = 91
+PAIR_COUNT_OK  = True
+RESONANCE      = 91
+------------------------------------------------------------------------------
+CYCLE          = 32
+CORES_BEFORE   = 14
+CORES_AFTER    = 14
+NEW            = 0
+MAX_GENERATION = 13
+INTERACTIONS   = 91
+EXPECTED_PAIRS = 91
+PAIR_COUNT_OK  = True
+RESONANCE      = 91
+------------------------------------------------------------------------------
+CYCLE          = 33
+CORES_BEFORE   = 14
+CORES_AFTER    = 14
+NEW            = 0
+MAX_GENERATION = 13
+INTERACTIONS   = 91
+EXPECTED_PAIRS = 91
+PAIR_COUNT_OK  = True
+RESONANCE      = 91
+------------------------------------------------------------------------------
+CYCLE          = 34
+CORES_BEFORE   = 14
+CORES_AFTER    = 14
+NEW            = 0
+MAX_GENERATION = 13
+INTERACTIONS   = 91
+EXPECTED_PAIRS = 91
+PAIR_COUNT_OK  = True
+RESONANCE      = 91
+------------------------------------------------------------------------------
+CYCLE          = 35
+CORES_BEFORE   = 14
+CORES_AFTER    = 14
+NEW            = 0
+MAX_GENERATION = 13
+INTERACTIONS   = 91
+EXPECTED_PAIRS = 91
+PAIR_COUNT_OK  = True
+RESONANCE      = 91
+------------------------------------------------------------------------------
+CYCLE          = 36
+CORES_BEFORE   = 14
+CORES_AFTER    = 14
+NEW            = 0
+MAX_GENERATION = 13
+INTERACTIONS   = 91
+EXPECTED_PAIRS = 91
+PAIR_COUNT_OK  = True
+RESONANCE      = 91
+------------------------------------------------------------------------------
+CYCLE          = 37
+CORES_BEFORE   = 14
+CORES_AFTER    = 14
+NEW            = 0
+MAX_GENERATION = 13
+INTERACTIONS   = 91
+EXPECTED_PAIRS = 91
+PAIR_COUNT_OK  = True
+RESONANCE      = 91
+------------------------------------------------------------------------------
+CYCLE          = 38
+CORES_BEFORE   = 14
+CORES_AFTER    = 14
+NEW            = 0
+MAX_GENERATION = 13
+INTERACTIONS   = 91
+EXPECTED_PAIRS = 91
+PAIR_COUNT_OK  = True
+RESONANCE      = 91
+------------------------------------------------------------------------------
+CYCLE          = 39
+CORES_BEFORE   = 14
+CORES_AFTER    = 14
+NEW            = 0
+MAX_GENERATION = 13
+INTERACTIONS   = 91
+EXPECTED_PAIRS = 91
+PAIR_COUNT_OK  = True
+RESONANCE      = 91
+------------------------------------------------------------------------------
+CYCLE          = 40
+CORES_BEFORE   = 14
+CORES_AFTER    = 14
+NEW            = 0
+MAX_GENERATION = 13
+INTERACTIONS   = 91
+EXPECTED_PAIRS = 91
+PAIR_COUNT_OK  = True
+RESONANCE      = 91
+------------------------------------------------------------------------------
+CYCLE          = 41
+CORES_BEFORE   = 14
+CORES_AFTER    = 25
+NEW            = 11
+MAX_GENERATION = 14
+INTERACTIONS   = 91
+EXPECTED_PAIRS = 91
+PAIR_COUNT_OK  = True
+RESONANCE      = 91
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = fb4e5e542fb74e83cb07f3b523d9ffe531381f6b43be84e0e698c5604cd8417a
+  CHILD_CORE_ID      = 19fc72861e682f92938c1562adaa3e050e05bb1ed140b9975658656c2dc48e3c
+  GENERATION         = 0 -> 1
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = f4764cf1e507cacf669aa54c74cfae98b3c4ba9d5e8072662161d8daa08170d8
+  CHILD_CORE_ID      = 3eb51363c22dafd6bd0b1aa6b4b6d139601a68ecdccab425d70b94d8667b5542
+  GENERATION         = 1 -> 2
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = adfe0ee0ebf616fa964143c3def478d1fb2fa636887565a6c6441379a06abc9a
+  CHILD_CORE_ID      = fec8aec7563a637df32b775df0fd63d7d7f83fc0cb11d9eaff2940bc4612d646
+  GENERATION         = 2 -> 3
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = 3c0024cad3358d669d783ab371f8bc3f4989c0c00faff4bdf046a2d321e5ce3a
+  CHILD_CORE_ID      = 4bca09614143f48c49675fea881fb2862c7dcc72a907468cc19be71a7f19ea3f
+  GENERATION         = 3 -> 4
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = f825af8cff7432a73e0d6a4471e1a183c30f0c06b7909fa666ef665228bf819e
+  CHILD_CORE_ID      = dff416319c3898c6b7212729e8555804f4511a45f6a06db3fdfa0e02c6b44d3c
+  GENERATION         = 4 -> 5
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = a80c1d9ba6bad8b25d0f0bd3fd542a41e48c75073ed89151be2c5b94bb1486f0
+  CHILD_CORE_ID      = 0a9a4a98ecda1b5a19f280ec7dc51bf628dc488fff0d0cdfc03ae4eb5ee0ab04
+  GENERATION         = 5 -> 6
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = 47d57adda2ff5f720d3bf333d2b82263881bb57a213e290c3998444c03415320
+  CHILD_CORE_ID      = 0dce7032d6a699bbed1a89509cd9ade1da330f0726b7104354eb253f7cc6d2fd
+  GENERATION         = 7 -> 8
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = f379e19cf8ae03c10f89b1364c95506baf260a67018dd65673ea75148347db39
+  CHILD_CORE_ID      = 7a2c872533b78ecf34e13f025f77c3f8ea94fb0ca1d6d09b5c99ed34648bb703
+  GENERATION         = 9 -> 10
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = 0fbeea9a422aa85e32918cd39702e5a256a203577c89426353c93d1b77033967
+  CHILD_CORE_ID      = d58f52a92d5d49f3eee77d0fc1af5c4771f23591c21dd94915b929e2938eb7fe
+  GENERATION         = 11 -> 12
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = 213f18e2e02ddb593534df2d390487f660f36f7450dba915a80f5747b13a9233
+  CHILD_CORE_ID      = b3ceae0dc5f364714c79bc7999fa7bf6a02c1397196e3dfc4968a708be31bb1f
+  GENERATION         = 12 -> 13
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = 6884860b9ca15a53ea172cdc3fc7aef9b8c2a8ce73befad8f19256ed1892bca0
+  CHILD_CORE_ID      = 3e4ff30258c485789f8b6f39e7ec38e372e5460e451434f500b1ebb30663721c
+  GENERATION         = 13 -> 14
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+------------------------------------------------------------------------------
+CYCLE          = 42
+CORES_BEFORE   = 25
+CORES_AFTER    = 25
+NEW            = 0
+MAX_GENERATION = 14
+INTERACTIONS   = 300
+EXPECTED_PAIRS = 300
+PAIR_COUNT_OK  = True
+RESONANCE      = 91
+------------------------------------------------------------------------------
+CYCLE          = 43
+CORES_BEFORE   = 25
+CORES_AFTER    = 36
+NEW            = 11
+MAX_GENERATION = 15
+INTERACTIONS   = 300
+EXPECTED_PAIRS = 300
+PAIR_COUNT_OK  = True
+RESONANCE      = 300
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = 19fc72861e682f92938c1562adaa3e050e05bb1ed140b9975658656c2dc48e3c
+  CHILD_CORE_ID      = 3ff52cdbbea3e5aa9077308aa11708f233e07290736da6f889ad204a5730ae0c
+  GENERATION         = 1 -> 2
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = 3eb51363c22dafd6bd0b1aa6b4b6d139601a68ecdccab425d70b94d8667b5542
+  CHILD_CORE_ID      = 2db7fc3f1794cc3a4f2a4edf341d93b51852fe135be53d515105d62f2826a146
+  GENERATION         = 2 -> 3
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = fec8aec7563a637df32b775df0fd63d7d7f83fc0cb11d9eaff2940bc4612d646
+  CHILD_CORE_ID      = 4e8bb42832cc0b4cfc4df031c9ab4c105384062e3ef01b6f6789a4ab2cc6e8e7
+  GENERATION         = 3 -> 4
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = 4bca09614143f48c49675fea881fb2862c7dcc72a907468cc19be71a7f19ea3f
+  CHILD_CORE_ID      = f15e1b7933be20bb1af51e5f738f575330e86d45ac3f2a0960b67b83a4322034
+  GENERATION         = 4 -> 5
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = dff416319c3898c6b7212729e8555804f4511a45f6a06db3fdfa0e02c6b44d3c
+  CHILD_CORE_ID      = 6f39c62b4c1732e2edec0b43f191f49b8754e4bfe6ce634612219593c56d7cf5
+  GENERATION         = 5 -> 6
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = 0a9a4a98ecda1b5a19f280ec7dc51bf628dc488fff0d0cdfc03ae4eb5ee0ab04
+  CHILD_CORE_ID      = 54017282024383b535534de604d0c2a41679197f086897225745c8c8b9a71428
+  GENERATION         = 6 -> 7
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = 0dce7032d6a699bbed1a89509cd9ade1da330f0726b7104354eb253f7cc6d2fd
+  CHILD_CORE_ID      = 44b9345670f77b8ea3fc7ef8db25039ed5a204917af3ebada0ea07a59d805927
+  GENERATION         = 8 -> 9
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = 7a2c872533b78ecf34e13f025f77c3f8ea94fb0ca1d6d09b5c99ed34648bb703
+  CHILD_CORE_ID      = b9855e956c9bfb9b585721077a8c391da71f26f6ac78466e5bb7c2018d1eb391
+  GENERATION         = 10 -> 11
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = d58f52a92d5d49f3eee77d0fc1af5c4771f23591c21dd94915b929e2938eb7fe
+  CHILD_CORE_ID      = 2760d60a63399f1c6633ccbee7f8fa3de92194242f32c39b32300f440ecd4c47
+  GENERATION         = 12 -> 13
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = b3ceae0dc5f364714c79bc7999fa7bf6a02c1397196e3dfc4968a708be31bb1f
+  CHILD_CORE_ID      = daf8e89ce6e1261b135ab2c6ba57b84916e4a0db13c6a5c293a440422124259b
+  GENERATION         = 13 -> 14
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+
+STATE_TRANSFER
+  PARENT_CORE_ID     = 3e4ff30258c485789f8b6f39e7ec38e372e5460e451434f500b1ebb30663721c
+  CHILD_CORE_ID      = 0910de6d9e9710e306da1d06d4f008ad1dc15805d391c642a5e7f7b9101e33aa
+  GENERATION         = 14 -> 15
+  PARENT_LINK        = True
+  STATE_TRANSFER     = True
+  POSITION_TRANSFER  = True
+  CHRONICLE_TRANSFER = True
+  TRANSFER_CHECK     = True
+
+==============================================================================
+STOP_REASON          = TEST_POPULATION_LIMIT
+EXECUTION_CYCLES     = 43
+FINAL_CORES          = 36
+MAX_GENERATION       = 15
+TRANSFERS_SEEN       = 35
+TRANSFER_FAILURES    = 0
+PAIR_COUNT_FAILURES  = 0
+GENERATION_FAILURES  = 0
+RESULT               = PASS
+==============================================================================
