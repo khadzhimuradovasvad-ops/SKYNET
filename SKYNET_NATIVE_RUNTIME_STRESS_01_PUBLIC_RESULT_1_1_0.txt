@@ -1,0 +1,67 @@
+SKYNET 1_1_0 — NATIVE RUNTIME PERFORMANCE / STRESS TEST 01
+PUBLIC MEASUREMENT RESULT
+==============================================================================
+
+BENCHMARK
+NAME                         = SKYNET_NATIVE_RUNTIME_STRESS_01_1_1_0
+COMPLETED_RUNS               = 10
+CYCLES_PER_RUN               = 43
+TOTAL_CYCLES                 = 430
+
+ENVIRONMENT
+PLATFORM                     = Android-16-aarch64-64bit-ELF
+PYTHON                       = 3.13.13
+CPU_COUNT                    = 8
+
+SOURCE IDENTITY
+LINES                        = 4692
+CHARACTERS                   = 115994
+BYTES                        = 116008
+SHA256                       = 93b966eab0235a53752ebcc5768fec8696514e268e865ca47650c57a22def0a0
+
+AGGREGATE MEASURED RESULT
+MEASURED_RUNTIME_S           = 8.300210049
+TOTAL_INTERACTIONS           = 26930
+TOTAL_RESONANCES             = 23930
+TOTAL_DESCENDANTS            = 350
+AGGREGATE_CYCLES_PER_S       = 51.80591785768191
+AGGREGATE_INTERACTIONS_PER_S = 3244.4962044357535
+AGGREGATE_RESONANCES_PER_S   = 2883.059568219368
+CYCLE_LATENCY_MIN_S          = 0.000276875
+CYCLE_LATENCY_MEAN_S         = 0.019275021039534886
+CYCLE_LATENCY_MEDIAN_S       = 0.017084219
+CYCLE_LATENCY_P95_S          = 0.030433067799999998
+CYCLE_LATENCY_P99_S          = 0.0916199471
+CYCLE_LATENCY_MAX_S          = 0.096385833
+
+TIME TO FIRST AUTONOMOUS SUCCESSION
+EVENT_PRESENT_RUNS           = 10/10
+MIN_S                        = 0.006108906
+MEAN_S                       = 0.0066693958
+MEDIAN_S                     = 0.0061561725
+MAX_S                        = 0.011313073
+
+PER-RUN RESULTS
+RUN  TOTAL_S       FINAL_CORES  MAX_GEN  INTERACTIONS  RESONANCES  DESCENDANTS  CYCLES/S
+01   0.868901250   36           15       2693          2393        35           49.487787018
+02   0.835086041   36           15       2693          2393        35           51.491700123
+03   0.825891875   36           15       2693          2393        35           52.064926780
+04   0.826073750   36           15       2693          2393        35           52.053463749
+05   0.819897448   36           15       2693          2393        35           52.445583414
+06   0.823372447   36           15       2693          2393        35           52.224239658
+07   0.823009791   36           15       2693          2393        35           52.247252062
+08   0.824675000   36           15       2693          2393        35           52.141752812
+09   0.825555416   36           15       2693          2393        35           52.086146086
+10   0.827747031   36           15       2693          2393        35           51.948238278
+
+MEASUREMENT METHOD
+CLOCK                        = time.perf_counter_ns()
+INDEPENDENT_RUNS             = 10
+NATIVE_EXECUTION_CYCLES      = 43 per run
+DIRECT_SUCCESSION_CALLS      = NONE
+MANUAL_DESCENDANT_ATTACHMENT = NONE
+MONKEY_PATCHING              = NONE
+PERFORMANCE_PASS_THRESHOLD   = NONE
+
+RESULT                       = MEASURED
+==============================================================================
