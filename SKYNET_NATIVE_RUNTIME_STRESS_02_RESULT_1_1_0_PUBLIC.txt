@@ -1,0 +1,118 @@
+{
+  "title": "SKYNET 1_1_0 — Native Runtime Stress Test 02",
+  "edition": "PUBLICATION RESULT",
+  "description": "Measured population-scaling and pair-throughput result. Private runtime identifiers, internal mechanism names, integration paths and reconstruction-sensitive bindings are omitted.",
+  "environment": {
+    "cpu_count": 8,
+    "platform": "Android-16-aarch64-64bit-ELF",
+    "python": "3.13.13"
+  },
+  "source_identity": {
+    "lines": 4692,
+    "characters": 115994,
+    "bytes": 116008,
+    "sha256": "93b966eab0235a53752ebcc5768fec8696514e268e865ca47650c57a22def0a0"
+  },
+  "configuration": {
+    "population_limit": 64,
+    "max_cycles": 100
+  },
+  "result": {
+    "stop_reason": "TEST_POPULATION_LIMIT",
+    "execution_cycles": 49,
+    "final_population": 69,
+    "maximum_generation_depth": 18,
+    "measured_runtime_s": 2.973016505,
+    "total_pair_operations": 9421,
+    "total_secondary_events": 7768,
+    "total_new_units": 68,
+    "pair_count_failures": 0,
+    "aggregate_cycles_per_s": 16.481576848830848,
+    "aggregate_pair_operations_per_s": 3168.835418221131,
+    "aggregate_secondary_events_per_s": 2612.83446860649,
+    "cycle_latency_min_s": 0.000483437,
+    "cycle_latency_mean_s": 0.06067380622448979,
+    "cycle_latency_median_s": 0.025464583,
+    "cycle_latency_p95_s": 0.3339382812,
+    "cycle_latency_p99_s": 0.49890355832,
+    "cycle_latency_max_s": 0.505146458
+  },
+  "population_bands": {
+    "01_04": {
+      "cycles": 8,
+      "population_before_min": 1,
+      "population_before_max": 4,
+      "latency_min_s": 0.000483437,
+      "latency_mean_s": 0.002328457,
+      "latency_median_s": 0.0013408595,
+      "latency_p95_s": 0.007084921899999996,
+      "latency_p99_s": 0.009066942779999998,
+      "latency_max_s": 0.009562448,
+      "pair_operations": 20,
+      "secondary_events": 14,
+      "pair_operations_per_s": 1073.6723933489002,
+      "secondary_events_per_s": 751.5706753442302
+    },
+    "05_08": {
+      "cycles": 8,
+      "population_before_min": 5,
+      "population_before_max": 8,
+      "latency_min_s": 0.003502813,
+      "latency_mean_s": 0.006415039125,
+      "latency_median_s": 0.0062366405,
+      "latency_p95_s": 0.0095941246,
+      "latency_p99_s": 0.00967269932,
+      "latency_max_s": 0.009692343,
+      "pair_operations": 148,
+      "secondary_events": 126,
+      "pair_operations_per_s": 2883.8483506521093,
+      "secondary_events_per_s": 2455.168190420039
+    },
+    "09_16": {
+      "cycles": 25,
+      "population_before_min": 9,
+      "population_before_max": 14,
+      "latency_min_s": 0.011854687,
+      "latency_mean_s": 0.02604666228,
+      "latency_median_s": 0.030046094,
+      "latency_p95_s": 0.0315912598,
+      "latency_p99_s": 0.034428170759999994,
+      "latency_max_s": 0.035309271,
+      "pair_operations": 1925,
+      "secondary_events": 1862,
+      "pair_operations_per_s": 2956.2329012544787,
+      "secondary_events_per_s": 2859.4834608497868
+    },
+    "17_32": {
+      "cycles": 2,
+      "population_before_min": 25,
+      "population_before_max": 25,
+      "latency_min_s": 0.096678854,
+      "latency_mean_s": 0.098493932,
+      "latency_median_s": 0.098493932,
+      "latency_p95_s": 0.10012750220000001,
+      "latency_p99_s": 0.10027270844,
+      "latency_max_s": 0.10030901,
+      "pair_operations": 600,
+      "secondary_events": 391,
+      "pair_operations_per_s": 3045.8729173285515,
+      "secondary_events_per_s": 1984.8938511257727
+    },
+    "33_64": {
+      "cycles": 6,
+      "population_before_min": 36,
+      "population_before_max": 58,
+      "latency_min_s": 0.193072969,
+      "latency_mean_s": 0.34248568583333333,
+      "latency_median_s": 0.33348723950000003,
+      "latency_p95_s": 0.50189494775,
+      "latency_p99_s": 0.50449615595,
+      "latency_max_s": 0.505146458,
+      "pair_operations": 6728,
+      "secondary_events": 5375,
+      "pair_operations_per_s": 3274.1027719302033,
+      "secondary_events_per_s": 2615.6810938057138
+    }
+  },
+  "measurement_note": "No performance threshold or predetermined target was used. Values are the measurements produced by the completed benchmark run."
+}
