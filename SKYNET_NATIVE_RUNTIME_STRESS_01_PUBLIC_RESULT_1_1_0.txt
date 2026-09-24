@@ -1,3 +1,17 @@
+SKYNET 1_1_0 — Native Runtime Stress Test 01
+
+Reproducible runtime performance measurement executed on
+Android 16 / aarch64 using Python 3.13.13.
+
+Publication includes the benchmark implementation and its
+corresponding measured result from 10 independent runs.
+
+No performance threshold or predetermined target was used.
+The published result contains the measurements produced
+by the benchmark run.
+
+------------------------------------------------------------------------------
+
 SKYNET 1_1_0 — NATIVE RUNTIME PERFORMANCE / STRESS TEST 01
 PUBLIC MEASUREMENT RESULT
 ==============================================================================
