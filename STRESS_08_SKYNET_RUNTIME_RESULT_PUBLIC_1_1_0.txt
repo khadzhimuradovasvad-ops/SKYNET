@@ -1,0 +1,63 @@
+{
+  "publication": "STRESS_08_SKYNET_RUNTIME_RESULT_PUBLIC_1_1_0",
+  "test": "GENERATIONAL_CONTINUITY_UNDER_LOAD",
+  "started": "2026-09-24T11:59:56.222832+02:00",
+  "finished": "2026-09-24T12:00:18.031979+02:00",
+  "stop_reason": "MAX_CYCLES",
+  "configuration": {
+    "population_limit": 192,
+    "max_cycles": 64,
+    "sequence_length": 64
+  },
+  "environment": {
+    "platform": "Android-16-aarch64-64bit-ELF",
+    "python": "3.13.13",
+    "cpu_count": 8
+  },
+  "source": {
+    "file": "BORN_OF_THE_DARK_ABYSS_FINAL_1_1_0.py",
+    "lines": 4692,
+    "characters": 115994,
+    "bytes": 116008,
+    "sha256": "93b966eab0235a53752ebcc5768fec8696514e268e865ca47650c57a22def0a0"
+  },
+  "benchmark_file": {
+    "file": "STRESS_08_SKYNET_RUNTIME_TEST_1_1_0.py",
+    "lines": 424,
+    "characters": 14903,
+    "bytes": 14907,
+    "sha256": "be7b73a0c72bf1dc679462198359459ba451f220f3d1413846b4ea311f60b9a4"
+  },
+  "measured_runtime_s": 21.809124367,
+  "execution_cycles": 64,
+  "final_population": 146,
+  "max_generation": 25,
+  "observed_new_units": 145,
+  "known_object_count": 146,
+  "known_identifier_count": 146,
+  "operation_count_failures": 0,
+  "duplicate_identifier_failures": 0,
+  "parent_reference_failures": 0,
+  "generation_step_failures": 0,
+  "continuity_failures": 0,
+  "final_active_continuity_failures": 0,
+  "retention_failures": 0,
+  "total_operations": 95508,
+  "total_secondary_events": 84923,
+  "total_new_units": 145,
+  "cycle_latency_s": {
+    "min": 0.000212605,
+    "mean": 0.340191586796875,
+    "median": 0.0139515105,
+    "p95": 1.7735038379999999,
+    "p99": 2.237031792049999,
+    "max": 2.464515572
+  },
+  "publication_boundary": {
+    "identifiers_in_raw_records": "omitted",
+    "private_formulas": "omitted",
+    "private_mechanism_names": "omitted",
+    "private_runtime_adapter": "omitted",
+    "reconstruction_sensitive_state": "omitted"
+  }
+}
